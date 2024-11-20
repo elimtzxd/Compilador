@@ -1,0 +1,48 @@
+main{
+	int tipo,localCount;
+	real duracion,costo;
+	localCount := 0;
+	tipo := 1;
+	costo := 0;
+	cout "Menu";
+	cout "0: Salir ";
+	cout "1: Llamada Internacional";
+	cout "2: Llamada Nacional";
+	cout "3: Llamada Local";
+	while(tipo<>0){
+		cout "Ingresa opcion";
+		cin tipo;
+		if(tipo<>0)
+			cout "Ingresa la duracion de la llamada: ";
+			cin duracion;
+		end
+		
+		if(tipo = 1)
+			if(duracion > 3)
+				costo := costo + 7.59 + (duracion - 3) * 3.03;
+			else
+				costo := costo + 7.59;	
+			end
+		else
+			if(tipo = 2)
+				if(duracion > 3)
+					costo := costo + 1.20 + (duracion - 3) * 0.48;
+				else
+					costo := costo + 0.48;
+				end
+			else
+				if(tipo = 3)
+					localCount++;
+					if(localCount > 50)
+						costo := costo + 0.60;
+					end
+				
+				end
+			end
+		end
+	
+	}
+	cout "El costo total es: ";
+	cout costo;
+
+}

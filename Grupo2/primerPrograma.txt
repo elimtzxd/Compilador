@@ -1,0 +1,26 @@
+main{	
+	int pupilId;
+	real grade1,grade2,grade3,grade4,grade5;
+	cout "Ingresa la matricula del alumno: ";
+	cin pupilId;
+	cout "Ingresa la primer calificacion: ";
+	cin grade1;
+	cout "Ingresa la segunda calificacion: ";
+	cin grade2;
+	cout "Ingresa la tercer calificacion: ";
+	cin grade3;
+	cout "Ingresa la cuarta calificacion: ";
+	cin grade4;
+	cout "Ingresa la quinta calificacion: ";
+	cin grade5;
+	
+	
+	cout "Tiene el promedio de : ";
+	cout (grade1 + grade2 + grade3 + grade4 + grade5)/5;
+	
+	
+
+
+
+
+}

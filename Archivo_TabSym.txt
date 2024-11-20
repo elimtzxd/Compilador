@@ -1,0 +1,8 @@
+Variable      Tipo  Valor      L.Memoria  # de Linea
+----------  ------  -------  -----------  ------------
+grade1           2                     1  3, 7, 19,
+grade2           2                     2  3, 9, 19,
+grade3           2                     3  3, 11, 19,
+grade4           2                     4  3, 13, 19,
+grade5           2                     5  3, 15, 19,
+pupilId          1                     0  2, 5,

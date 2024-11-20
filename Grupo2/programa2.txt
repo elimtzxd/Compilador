@@ -1,0 +1,13 @@
+main{
+real T;
+int n;
+
+cout "Numero de sonidos emitidos por el grillo";
+cin n;
+
+T := n / 4 + 40;
+
+cout "Temperatura en Fahrenheit";
+cout T;
+
+}

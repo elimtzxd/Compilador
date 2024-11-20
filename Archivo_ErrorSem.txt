@@ -1,0 +1,7 @@
+Write of non-int or non-real value at line 4
+Write of non-int or non-real value at line 6
+Write of non-int or non-real value at line 8
+Write of non-int or non-real value at line 10
+Write of non-int or non-real value at line 12
+Write of non-int or non-real value at line 14
+Write of non-int or non-real value at line 18

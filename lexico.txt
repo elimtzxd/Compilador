@@ -1,0 +1,791 @@
+ main  ### palabra reservada ### 
+ {  ### simbolo especial ###
+ int  ### palabra reservada ### 
+ years  ### identificador ###
+ ,  ### simbolo especial ###
+ count  ### identificador ###
+ ;  ### simbolo especial ###
+ years  ### identificador ###
+ =  ### operador aritmetico ###
+ 3 ### entero ### 
+ ;  ### simbolo especial ###
+ count  ### identificador ###
+ =  ### operador aritmetico ###
+ 0 ### entero ### 
+ ;  ### simbolo especial ###
+ real  ### palabra reservada ### 
+ wine1year1  ### identificador ###
+ ,  ### simbolo especial ###
+ wine1year2  ### identificador ###
+ ,  ### simbolo especial ###
+ wine1year3  ### identificador ###
+ ,  ### simbolo especial ###
+ wine2year1  ### identificador ###
+ ,  ### simbolo especial ###
+ wine2year2  ### identificador ###
+ ,  ### simbolo especial ###
+ wine2year3  ### identificador ###
+ ;  ### simbolo especial ###
+ real  ### palabra reservada ### 
+ wine3year1  ### identificador ###
+ ,  ### simbolo especial ###
+ wine3year2  ### identificador ###
+ ,  ### simbolo especial ###
+ wine3year3  ### identificador ###
+ ,  ### simbolo especial ###
+ wine4year1  ### identificador ###
+ ,  ### simbolo especial ###
+ wine4year2  ### identificador ###
+ ,  ### simbolo especial ###
+ wine4year3  ### identificador ###
+ ;  ### simbolo especial ###
+ real  ### palabra reservada ### 
+ wine5year1  ### identificador ###
+ ,  ### simbolo especial ###
+ wine5year2  ### identificador ###
+ ,  ### simbolo especial ###
+ wine5year3  ### identificador ###
+ ;  ### simbolo especial ###
+ do  ### palabra reservada ### 
+ if  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ count  ### identificador ###
+ =  ### operador aritmetico ###
+ 0 ### entero ### 
+ )  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Ingresa  ### identificador ###
+ la  ### identificador ###
+ cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 1 ### entero ### 
+ en  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 1 ### entero ### 
+ ;  ### simbolo especial ###
+ cin  ### palabra reservada ### 
+ wine1year1  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Ingresa  ### identificador ###
+ la  ### identificador ###
+ cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 2 ### entero ### 
+ en  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 1 ### entero ### 
+ ;  ### simbolo especial ###
+ cin  ### palabra reservada ### 
+ wine2year1  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Ingresa  ### identificador ###
+ la  ### identificador ###
+ cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 3 ### entero ### 
+ en  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 1 ### entero ### 
+ ;  ### simbolo especial ###
+ cin  ### palabra reservada ### 
+ wine3year1  ### identificador ###
+ ;  ### simbolo especial ###
+ else  ### palabra reservada ### 
+ if  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ count  ### identificador ###
+ =  ### operador aritmetico ###
+ 1 ### entero ### 
+ )  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Ingresa  ### identificador ###
+ la  ### identificador ###
+ cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 1 ### entero ### 
+ en  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 2 ### entero ### 
+ ;  ### simbolo especial ###
+ cin  ### palabra reservada ### 
+ wine1year2  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Ingresa  ### identificador ###
+ la  ### identificador ###
+ cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 2 ### entero ### 
+ en  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 2 ### entero ### 
+ ;  ### simbolo especial ###
+ cin  ### palabra reservada ### 
+ wine2year2  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Ingresa  ### identificador ###
+ la  ### identificador ###
+ cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 3 ### entero ### 
+ en  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 2 ### entero ### 
+ ;  ### simbolo especial ###
+ cin  ### palabra reservada ### 
+ wine3year2  ### identificador ###
+ ;  ### simbolo especial ###
+ else  ### palabra reservada ### 
+ if  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ count  ### identificador ###
+ =  ### operador aritmetico ###
+ 2 ### entero ### 
+ )  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Ingresa  ### identificador ###
+ la  ### identificador ###
+ cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 1 ### entero ### 
+ en  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 3 ### entero ### 
+ ;  ### simbolo especial ###
+ cin  ### palabra reservada ### 
+ wine1year3  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Ingresa  ### identificador ###
+ la  ### identificador ###
+ cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 2 ### entero ### 
+ en  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 3 ### entero ### 
+ ;  ### simbolo especial ###
+ cin  ### palabra reservada ### 
+ wine2year3  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Ingresa  ### identificador ###
+ la  ### identificador ###
+ cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 3 ### entero ### 
+ en  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 3 ### entero ### 
+ ;  ### simbolo especial ###
+ cin  ### palabra reservada ### 
+ wine3year3  ### identificador ###
+ ;  ### simbolo especial ###
+ end  ### palabra reservada ### 
+ end  ### palabra reservada ### 
+ end  ### palabra reservada ### 
+ count  ### identificador ###
+ ++ ### operador doble ###
+ ;  ### simbolo especial ###
+ until  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ count  ### identificador ###
+ =  ### operador aritmetico ###
+ years  ### identificador ###
+ )  ### simbolo especial ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Total  ### identificador ###
+ producido  ### identificador ###
+ de  ### identificador ###
+ vino  ### identificador ###
+ 1 ### entero ### 
+ a  ### identificador ###
+ lo  ### identificador ###
+ largo  ### identificador ###
+ de  ### identificador ###
+ los  ### identificador ###
+ 3 ### entero ### 
+ anios  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine1year1  ### identificador ###
+ +  ### operador aritmetico ###
+ wine1year2  ### identificador ###
+ +  ### operador aritmetico ###
+ wine1year3  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Total  ### identificador ###
+ producido  ### identificador ###
+ de  ### identificador ###
+ vino  ### identificador ###
+ 2 ### entero ### 
+ a  ### identificador ###
+ lo  ### identificador ###
+ largo  ### identificador ###
+ de  ### identificador ###
+ los  ### identificador ###
+ 3 ### entero ### 
+ anios  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine2year1  ### identificador ###
+ +  ### operador aritmetico ###
+ wine2year2  ### identificador ###
+ +  ### operador aritmetico ###
+ wine2year3  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Total  ### identificador ###
+ producido  ### identificador ###
+ de  ### identificador ###
+ vino  ### identificador ###
+ 3 ### entero ### 
+ a  ### identificador ###
+ lo  ### identificador ###
+ largo  ### identificador ###
+ de  ### identificador ###
+ los  ### identificador ###
+ 3 ### entero ### 
+ anios  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine3year1  ### identificador ###
+ +  ### operador aritmetico ###
+ wine3year2  ### identificador ###
+ +  ### operador aritmetico ###
+ wine3year3  ### identificador ###
+ ;  ### simbolo especial ###
+ count  ### identificador ###
+ =  ### operador aritmetico ###
+ 0 ### entero ### 
+ ;  ### simbolo especial ###
+ do  ### palabra reservada ### 
+ if  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ count  ### identificador ###
+ =  ### operador aritmetico ###
+ 0 ### entero ### 
+ )  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 1 ### entero ### 
+ en  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 1 ### entero ### 
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine1year1  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 2 ### entero ### 
+ en  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 1 ### entero ### 
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine2year1  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 3 ### entero ### 
+ en  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 1 ### entero ### 
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine3year1  ### identificador ###
+ ;  ### simbolo especial ###
+ else  ### palabra reservada ### 
+ if  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ count  ### identificador ###
+ =  ### operador aritmetico ###
+ 1 ### entero ### 
+ )  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 1 ### entero ### 
+ en  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 2 ### entero ### 
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine1year2  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 2 ### entero ### 
+ en  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 2 ### entero ### 
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine2year2  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 3 ### entero ### 
+ en  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 2 ### entero ### 
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine3year2  ### identificador ###
+ ;  ### simbolo especial ###
+ else  ### palabra reservada ### 
+ if  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ count  ### identificador ###
+ =  ### operador aritmetico ###
+ 2 ### entero ### 
+ )  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 1 ### entero ### 
+ en  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 3 ### entero ### 
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine1year3  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 2 ### entero ### 
+ en  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 3 ### entero ### 
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine2year3  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ Cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 3 ### entero ### 
+ en  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 3 ### entero ### 
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine3year3  ### identificador ###
+ ;  ### simbolo especial ###
+ end  ### palabra reservada ### 
+ end  ### palabra reservada ### 
+ end  ### palabra reservada ### 
+ count  ### identificador ###
+ ++ ### operador doble ###
+ ;  ### simbolo especial ###
+ until  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ count  ### identificador ###
+ =  ### operador aritmetico ###
+ years  ### identificador ###
+ )  ### simbolo especial ###
+ ;  ### simbolo especial ###
+ if  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ wine2year1  ### identificador ###
+ >= ### operador relacional ###
+ wine2year2  ### identificador ###
+ )  ### simbolo especial ###
+ if  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ wine2year1  ### identificador ###
+ > ### operador relacional ###
+ wine2year2  ### identificador ###
+ )  ### simbolo especial ###
+ if  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ wine2year1  ### identificador ###
+ > ### operador relacional ###
+ wine2year3  ### identificador ###
+ )  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ El  ### identificador ###
+ anio  ### identificador ###
+ 1 ### entero ### 
+ es  ### identificador ###
+ donde  ### identificador ###
+ mas  ### identificador ###
+ cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 2 ### entero ### 
+ fue  ### identificador ###
+ producida  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine2year1  ### identificador ###
+ ;  ### simbolo especial ###
+ else  ### palabra reservada ### 
+ if  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ wine2year1  ### identificador ###
+ =  ### operador aritmetico ###
+ wine2year3  ### identificador ###
+ )  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ El  ### identificador ###
+ anio  ### identificador ###
+ 1 ### entero ### 
+ y  ### identificador ###
+ 3 ### entero ### 
+ es  ### identificador ###
+ donde  ### identificador ###
+ mas  ### identificador ###
+ cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 2 ### entero ### 
+ fue  ### identificador ###
+ producida  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine2year1  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine2year3  ### identificador ###
+ ;  ### simbolo especial ###
+ else  ### palabra reservada ### 
+ cout  ### palabra reservada ### 
+ El  ### identificador ###
+ anio  ### identificador ###
+ 3 ### entero ### 
+ es  ### identificador ###
+ donde  ### identificador ###
+ mas  ### identificador ###
+ cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 2 ### entero ### 
+ fue  ### identificador ###
+ producida  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine2year3  ### identificador ###
+ ;  ### simbolo especial ###
+ end  ### palabra reservada ### 
+ end  ### palabra reservada ### 
+ else  ### palabra reservada ### 
+ if  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ wine2year1  ### identificador ###
+ =  ### operador aritmetico ###
+ wine2year3  ### identificador ###
+ )  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ El  ### identificador ###
+ anio  ### identificador ###
+ 1 ### entero ### 
+ y  ### identificador ###
+ 3 ### entero ### 
+ es  ### identificador ###
+ donde  ### identificador ###
+ mas  ### identificador ###
+ cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 2 ### entero ### 
+ fue  ### identificador ###
+ producida  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine2year1  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine2year3  ### identificador ###
+ ;  ### simbolo especial ###
+ else  ### palabra reservada ### 
+ cout  ### palabra reservada ### 
+ El  ### identificador ###
+ anio  ### identificador ###
+ 1 ### entero ### 
+ y  ### identificador ###
+ 2 ### entero ### 
+ es  ### identificador ###
+ donde  ### identificador ###
+ mas  ### identificador ###
+ cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 2 ### entero ### 
+ fue  ### identificador ###
+ producida  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine2year1  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine2year2  ### identificador ###
+ ;  ### simbolo especial ###
+ end  ### palabra reservada ### 
+ end  ### palabra reservada ### 
+ else  ### palabra reservada ### 
+ if  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ wine2year2  ### identificador ###
+ > ### operador relacional ###
+ wine2year3  ### identificador ###
+ )  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ El  ### identificador ###
+ anio  ### identificador ###
+ 2 ### entero ### 
+ es  ### identificador ###
+ donde  ### identificador ###
+ mas  ### identificador ###
+ cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 2 ### entero ### 
+ fue  ### identificador ###
+ producida  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine2year1  ### identificador ###
+ ;  ### simbolo especial ###
+ else  ### palabra reservada ### 
+ if  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ wine2year2  ### identificador ###
+ =  ### operador aritmetico ###
+ wine2year3  ### identificador ###
+ )  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ El  ### identificador ###
+ anio  ### identificador ###
+ 2 ### entero ### 
+ y  ### identificador ###
+ 3 ### entero ### 
+ es  ### identificador ###
+ donde  ### identificador ###
+ mas  ### identificador ###
+ cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 2 ### entero ### 
+ fue  ### identificador ###
+ producida  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine2year2  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine2year3  ### identificador ###
+ ;  ### simbolo especial ###
+ else  ### palabra reservada ### 
+ cout  ### palabra reservada ### 
+ El  ### identificador ###
+ anio  ### identificador ###
+ 3 ### entero ### 
+ es  ### identificador ###
+ donde  ### identificador ###
+ mas  ### identificador ###
+ cantidad  ### identificador ###
+ del  ### identificador ###
+ vino  ### identificador ###
+ 2 ### entero ### 
+ fue  ### identificador ###
+ producida  ### identificador ###
+ ;  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ wine2year3  ### identificador ###
+ ;  ### simbolo especial ###
+ end  ### palabra reservada ### 
+ end  ### palabra reservada ### 
+ end  ### palabra reservada ### 
+ if  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ wine3year1  ### identificador ###
+ =  ### operador aritmetico ###
+ 0 ### entero ### 
+ )  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ En  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 1 ### entero ### 
+ no  ### identificador ###
+ se  ### identificador ###
+ produjo  ### identificador ###
+ vino  ### identificador ###
+ del  ### identificador ###
+ tipo  ### identificador ###
+ 3 ### entero ### 
+ ;  ### simbolo especial ###
+ if  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ wine3year2  ### identificador ###
+ =  ### operador aritmetico ###
+ 0 ### entero ### 
+ )  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ En  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 2 ### entero ### 
+ no  ### identificador ###
+ se  ### identificador ###
+ produjo  ### identificador ###
+ vino  ### identificador ###
+ del  ### identificador ###
+ tipo  ### identificador ###
+ 3 ### entero ### 
+ ;  ### simbolo especial ###
+ if  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ wine3year3  ### identificador ###
+ =  ### operador aritmetico ###
+ 0 ### entero ### 
+ )  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ En  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 3 ### entero ### 
+ no  ### identificador ###
+ se  ### identificador ###
+ produjo  ### identificador ###
+ vino  ### identificador ###
+ del  ### identificador ###
+ tipo  ### identificador ###
+ 3 ### entero ### 
+ ;  ### simbolo especial ###
+ end  ### palabra reservada ### 
+ else  ### palabra reservada ### 
+ if  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ wine3year3  ### identificador ###
+ =  ### operador aritmetico ###
+ 0 ### entero ### 
+ )  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ En  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 3 ### entero ### 
+ no  ### identificador ###
+ se  ### identificador ###
+ produjo  ### identificador ###
+ vino  ### identificador ###
+ del  ### identificador ###
+ tipo  ### identificador ###
+ 3 ### entero ### 
+ ;  ### simbolo especial ###
+ end  ### palabra reservada ### 
+ end  ### palabra reservada ### 
+ else  ### palabra reservada ### 
+ if  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ wine3year2  ### identificador ###
+ =  ### operador aritmetico ###
+ 0 ### entero ### 
+ )  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ En  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 2 ### entero ### 
+ no  ### identificador ###
+ se  ### identificador ###
+ produjo  ### identificador ###
+ vino  ### identificador ###
+ del  ### identificador ###
+ tipo  ### identificador ###
+ 3 ### entero ### 
+ ;  ### simbolo especial ###
+ if  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ wine3year3  ### identificador ###
+ =  ### operador aritmetico ###
+ 0 ### entero ### 
+ )  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ En  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 3 ### entero ### 
+ no  ### identificador ###
+ se  ### identificador ###
+ produjo  ### identificador ###
+ vino  ### identificador ###
+ del  ### identificador ###
+ tipo  ### identificador ###
+ 3 ### entero ### 
+ ;  ### simbolo especial ###
+ end  ### palabra reservada ### 
+ else  ### palabra reservada ### 
+ if  ### palabra reservada ### 
+ (  ### simbolo especial ###
+ wine3year3  ### identificador ###
+ =  ### operador aritmetico ###
+ 0 ### entero ### 
+ )  ### simbolo especial ###
+ cout  ### palabra reservada ### 
+ En  ### identificador ###
+ el  ### identificador ###
+ anio  ### identificador ###
+ 3 ### entero ### 
+ no  ### identificador ###
+ se  ### identificador ###
+ produjo  ### identificador ###
+ vino  ### identificador ###
+ del  ### identificador ###
+ tipo  ### identificador ###
+ 3 ### entero ### 
+ ;  ### simbolo especial ###
+ end  ### palabra reservada ### 
+ end  ### palabra reservada ### 
+ end  ### palabra reservada ### 
+ }  ### simbolo especial ###

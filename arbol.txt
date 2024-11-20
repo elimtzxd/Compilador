@@ -1,0 +1,158 @@
+###################
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Main :
+    Dec :
+      Type : integer 
+      Id: x  Tipo: INTK valor: None
+      Id: y  Tipo: INTK valor: None
+      Id: z  Tipo: INTK valor: None
+    Dec :
+      Type : real 
+      Id: a  Tipo: REALK valor: None
+      Id: b  Tipo: REALK valor: None
+      Id: c  Tipo: REALK valor: None
+      Id: x  Tipo: INTK valor: None
+      Id: a  Tipo: REALK valor: None
+    Assign to: suma  Tipo: NULL Valor: None
+      Const Int: 45 45
+    Assign to: x  Tipo: NULL Valor: None
+      Const Float: 32.32 32.32
+    Assign to: x  Tipo: INTK Valor: 23
+      Const Int: 23 23
+    Assign to: y  Tipo: INTK Valor: 4
+      Op: -  Tipo: INTK Valor: 4
+        Op: +  Tipo: INTK Valor: 5
+          Const Int: 2 2
+          Const Int: 3 3
+        Const Int: 1 1
+    Assign to: z  Tipo: INTK Valor: 11
+      Op: +  Tipo: INTK Valor: 11
+        Id: y  Tipo: INTK valor: 4
+        Const Int: 7 7
+    Assign to: y  Tipo: INTK Valor: 5
+      Op: +  Tipo: INTK Valor: 5
+        Id: y  Tipo: INTK valor: 4
+        Const Int: 1 1
+    Assign to: a  Tipo: REALK Valor: 61.0
+      Op: -  Tipo: REALK Valor: 61.0
+        Op: +  Tipo: REALK Valor: 62.0
+          Op: -  Tipo: REALK Valor: 28.0
+            Op: +  Tipo: REALK Valor: 28.0
+              Const Float: 24.0 24.0
+              Const Int: 4 4
+            Op: *  Tipo: INTK Valor: 0
+              Op: /  Tipo: INTK Valor: 0
+                Const Int: 1 1
+                Const Int: 3 3
+              Const Int: 2 2
+          Const Int: 34 34
+        Const Int: 1 1
+    Assign to: x  Tipo: INTK Valor: 8
+      Op: *  Tipo: INTK Valor: 8
+        Op: -  Tipo: INTK Valor: 2
+          Const Int: 5 5
+          Const Int: 3 3
+        Op: /  Tipo: INTK Valor: 4
+          Const Int: 8 8
+          Const Int: 2 2
+    Assign to: y  Tipo: INTK Valor: -2
+      Op: -  Tipo: INTK Valor: -2
+        Op: -  Tipo: INTK Valor: 7
+          Op: +  Tipo: INTK Valor: 8
+            Const Int: 5 5
+            Const Int: 3 3
+          Op: /  Tipo: INTK Valor: 1
+            Op: *  Tipo: INTK Valor: 8
+              Const Int: 2 2
+              Const Int: 4 4
+            Const Int: 7 7
+        Const Int: 9 9
+    Assign to: z  Tipo: INTK Valor: 64
+      Op: +  Tipo: INTK Valor: 64
+        Op: /  Tipo: INTK Valor: 4
+          Const Int: 8 8
+          Const Int: 2 2
+        Op: *  Tipo: INTK Valor: 60
+          Const Int: 15 15
+          Const Int: 4 4
+    Assign to: y  Tipo: NULL Valor: None
+      Const Float: 14.54 14.54
+    If: 
+      Op: >  Tipo: BOOLEANK Valor: None
+        Const Int: 2 2
+        Const Int: 3 3
+      Assign to: y  Tipo: NULL Valor: None
+        Op: +  Tipo: REALK Valor: 64.0
+          Id: a  Tipo: REALK valor: 61.0
+          Const Int: 3 3
+      Else: 
+        If: 
+          Op: >  Tipo: BOOLEANK Valor: None
+            Const Int: 4 4
+            Const Int: 2 2
+          Assign to: b  Tipo: REALK Valor: 3.2
+            Const Float: 3.2 3.2
+          Else: 
+            Assign to: b  Tipo: REALK Valor: 5.0
+              Const Float: 5.0 5.0
+        Assign to: y  Tipo: INTK Valor: -1
+          Op: +  Tipo: INTK Valor: -1
+            Id: y  Tipo: INTK valor: -2
+            Const Int: 1 1
+    Assign to: a  Tipo: REALK Valor: 62.0
+      Op: +  Tipo: REALK Valor: 62.0
+        Id: a  Tipo: REALK valor: 61.0
+        Const Int: 1 1
+    Assign to: c  Tipo: REALK Valor: 1
+      Op: -  Tipo: REALK Valor: 1
+        Id: c  Tipo: REALK valor: 2
+        Const Int: 1 1
+    Assign to: x  Tipo: INTK Valor: 7
+      Op: +  Tipo: INTK Valor: 7
+        Const Int: 3 3
+        Const Int: 4 4
+    Do until: 
+      Assign to: y  Tipo: INTK Valor: 1
+        Op: +  Tipo: INTK Valor: 1
+          Op: *  Tipo: INTK Valor: 0
+            Op: +  Tipo: INTK Valor: 0
+              Id: y  Tipo: INTK valor: -1
+              Const Int: 1 1
+            Const Int: 2 2
+          Const Int: 1 1
+      While: 
+        Op: >  Tipo: BOOLEANK Valor: None
+          Id: x  Tipo: INTK valor: None
+          Const Int: 7 7
+        Assign to: x  Tipo: INTK Valor: 6
+          Op: +  Tipo: INTK Valor: 6
+            Const Int: 6 6
+            Op: /  Tipo: INTK Valor: 0
+              Op: *  Tipo: INTK Valor: 0
+                Op: /  Tipo: INTK Valor: 0
+                  Const Int: 8 8
+                  Const Int: 9 9
+                Const Int: 8 8
+              Const Int: 3 3
+        Read: x
+        Assign to: mas  Tipo: NULL Valor: None
+          Op: /  Tipo: INTK Valor: 5
+            Const Int: 36 36
+            Const Int: 7 7
+      While: 
+        Op: =  Tipo: BOOLEANK Valor: None
+          Id: y  Tipo: INTK valor: None
+          Const Int: 5 5
+      While: 
+        Op: =  Tipo: BOOLEANK Valor: None
+          Id: y  Tipo: INTK valor: None
+          Const Int: 0 0
+        Read: mas
+        Write: 
+          Op: +  Tipo: INTK Valor: 6
+            Id: x  Tipo: INTK valor: 6
+            Op: /  Tipo: INTK Valor: 0
+              Const Int: 32 32
+              Const Int: 54 54
+      Op: >  Tipo: BOOLEANK Valor: None
+        Id: y  Tipo: INTK valor: None
+        Const Int: 2 2

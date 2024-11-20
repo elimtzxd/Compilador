@@ -1,0 +1,176 @@
+main{
+	
+	
+	int years,count;
+	years := 3;
+	count := 0;
+	real wine1year1,wine1year2,wine1year3,wine2year1,wine2year2,wine2year3;
+	real wine3year1,wine3year2,wine3year3,wine4year1,wine4year2,wine4year3;
+	real wine5year1,wine5year2,wine5year3;
+	
+	do
+		
+		if(count = 0)
+			cout "Ingresa la cantidad del vino 1 en el anio 1: ";
+			cin wine1year1;
+			
+			cout "Ingresa la cantidad del vino 2 en el anio 1: ";
+			cin wine2year1;
+			
+			cout "Ingresa la cantidad del vino 3 en el anio 1: ";
+			cin wine3year1;
+			
+		else
+			if(count = 1)
+				cout "Ingresa la cantidad del vino 1 en el anio 2: ";
+				cin wine1year2;
+				
+				cout "Ingresa la cantidad del vino 2 en el anio 2: ";
+				cin wine2year2;
+				
+				cout "Ingresa la cantidad del vino 3 en el anio 2: ";
+				cin wine3year2;
+				 	
+			else 
+				if(count = 2)
+					cout "Ingresa la cantidad del vino 1 en el anio 3: ";
+					cin wine1year3;
+					
+					cout "Ingresa la cantidad del vino 2 en el anio 3: ";
+					cin wine2year3;
+					
+					cout "Ingresa la cantidad del vino 3 en el anio 3: ";
+					cin wine3year3;
+				end
+			end
+		end
+		count++;
+	until(count = years);
+	cout "Total producido de vino 1 a lo largo de los 3 anios: ";
+	cout wine1year1 + wine1year2 + wine1year3;
+	
+	cout "Total producido de vino 2 a lo largo de los 3 anios: ";
+	cout wine2year1 + wine2year2 + wine2year3;
+	
+
+	cout "Total producido de vino 3 a lo largo de los 3 anios: ";
+	cout wine3year1 + wine3year2 + wine3year3;
+	count := 0;
+	do
+		
+		if(count = 0)
+			cout "Cantidad del vino 1 en el anio 1: ";
+			cout wine1year1;
+			
+			cout "Cantidad del vino 2 en el anio 1: ";
+			cout wine2year1;
+			
+			cout "Cantidad del vino 3 en el anio 1: ";
+			cout wine3year1;
+			
+		else
+			if(count = 1)
+				cout "Cantidad del vino 1 en el anio 2: ";
+				cout wine1year2;
+				
+				cout "Cantidad del vino 2 en el anio 2: ";
+				cout wine2year2;
+				
+				cout "Cantidad del vino 3 en el anio 2: ";
+				cout wine3year2;
+				 	
+			else 
+				if(count = 2)
+					cout "Cantidad del vino 1 en el anio 3: ";
+					cout wine1year3;
+					
+					cout "Cantidad del vino 2 en el anio 3: ";
+					cout wine2year3;
+					
+					cout "Cantidad del vino 3 en el anio 3: ";
+					cout wine3year3;
+				end
+			end
+		end
+		count++;
+	until(count = years);
+
+	if(wine2year1 >= wine2year2)
+		
+		if(wine2year1 > wine2year2)
+			
+		
+			if(wine2year1 > wine2year3)
+				cout "El anio 1 es donde mas cantidad del vino 2 fue producida: ";
+				cout wine2year1;
+			else
+				if(wine2year1 = wine2year3)
+					cout "El anio 1 y 3 es donde mas cantidad del vino 2 fue producida: ";
+					cout wine2year1;
+					cout wine2year3;
+				
+				else
+					cout "El anio 3 es donde mas cantidad del vino 2 fue producida: ";
+					cout wine2year3;
+				end
+				
+			end
+		else
+			if(wine2year1 = wine2year3)
+				cout "El anio 1 y 3 es donde mas cantidad del vino 2 fue producida: ";
+				cout wine2year1;
+				cout wine2year3;
+			else
+				cout "El anio 1 y 2 es donde mas cantidad del vino 2 fue producida: ";
+					cout wine2year1;
+					cout wine2year2;
+				
+			end
+		end
+	else
+		if(wine2year2 > wine2year3)
+			cout "El anio 2 es donde mas cantidad del vino 2 fue producida: ";
+			cout wine2year1;
+		else
+			if(wine2year2 = wine2year3)
+				cout "El anio 2 y 3 es donde mas cantidad del vino 2 fue producida: ";
+				cout wine2year2;
+				cout wine2year3;
+			else
+				cout "El anio 3 es donde mas cantidad del vino 2 fue producida: ";
+				cout wine2year3;
+			end
+		end	
+	end
+	
+	
+	if(wine3year1 = 0)
+		cout "En el anio 1 no se produjo vino del tipo 3";
+		
+		if(wine3year2 = 0)
+			
+			cout "En el anio 2 no se produjo vino del tipo 3";
+			if(wine3year3 = 0)
+				cout "En el anio 3 no se produjo vino del tipo 3";
+			end
+		else
+			if(wine3year3 = 0)
+				cout "En el anio 3 no se produjo vino del tipo 3";
+			end	
+		end
+	else
+		if(wine3year2 = 0)
+			
+			cout "En el anio 2 no se produjo vino del tipo 3";
+			if(wine3year3 = 0)
+				cout "En el anio 3 no se produjo vino del tipo 3";
+			end
+		else
+			if(wine3year3 = 0)
+				
+				cout "En el anio 3 no se produjo vino del tipo 3";
+			end
+		end
+	end
+
+}

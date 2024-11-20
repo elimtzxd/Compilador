@@ -1,0 +1,28 @@
+main{
+real costoBasico, impuesto, precioTotal;
+
+cout "REGLAS DE IMPUESTOS";
+cout "Ingrese el costo basico del articulo";
+cin costoBasico;
+
+if(costoBasico <= 20)
+	impuesto := 0;
+else
+	if(costoBasico <= 40)
+		impuesto := (costoBasico - 20) * 0.3;	
+	else
+		if(costoBasico <= 500)
+			impuesto := 0.3 * 20 + 0.4 * (costoBasico - 40);
+		else
+			impuesto := 0.3 * 20 + 0.5 * (costoBasico - 40);	
+		end
+	end
+end
+
+precioTotal := costoBasico + impuesto;
+cout "De impuestos es:";
+cout impuesto;
+cout "El precio total es:";
+cout precioTotal;
+
+}
